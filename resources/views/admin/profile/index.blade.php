@@ -22,6 +22,15 @@
                             <th scope="col">CREATED_AT</th>
                           </tr>
                         </thead>
+                        <thead>
+                          <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nick NAME</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">CREATED_AT</th>
+                          </tr>
+                        </thead>
                         <tbody>
                             @php
                                 ($i=1)
