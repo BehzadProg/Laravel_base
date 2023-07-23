@@ -46,6 +46,21 @@
                             @endforeach
 
                         </tbody>
+                        <tbody>
+                            @php
+                                ($i=1)
+                            @endphp
+                            @foreach ($profiles as $prof)
+                            <tr>
+                                <th scope="col">{{$i++}}</th>
+                                <th scope="col">{{$prof->user->name}}</th>
+                                <th scope="col">{{$prof->age}}</th>
+                                <th scope="col">{{$prof->phone}}</th>
+                                <th scope="col">{{carbon\carbon::parse($cat->created_at)->diffForHumans()}}</th>
+                              </tr>
+                            @endforeach
+
+                        </tbody>
                       </table>
                 </div>
             </div>
