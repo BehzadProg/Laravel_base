@@ -69,4 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Behzad Rowhani is here baby 8-)
 
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
